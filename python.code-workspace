@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.linting.enabled": true,
+		"python.formatting.blackArgs": [
+			"line-length=99"
+		],
+		"python.formatting.provider": "black",
+		"python.linting.flake8Args": [
+			"max-line-length=99",
+			"inline-quotes=double"
+		],
+		"python.linting.flake8Enabled": true,
+		"python.linting.mypyEnabled": true,
+		"python.sortImports.path": "isort",
+		"python.testing.pytestEnabled": true
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": []
+	}
+}
